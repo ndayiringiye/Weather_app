@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🌤️ Weather App</h1>
+        </div>
+
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="Enter city name..." id="cityInput">
+            <button class="search-btn" onclick="searchWeather()">Search</button>
+            <button class="location-btn" onclick="getCurrentLocation()">📍 My Location</button>
+        </div>
+
+        <div id="weatherContainer"></div>
+    </div>
+</body>
+</html>
